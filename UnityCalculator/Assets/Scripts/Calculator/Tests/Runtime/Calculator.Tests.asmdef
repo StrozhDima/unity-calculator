@@ -1,0 +1,25 @@
+{
+    "name": "Calculator.Tests",
+    "rootNamespace": "UnityCalculator.Calculator",
+    "references": [
+        "UnityEngine.TestRunner",
+        "Calculator.Runtime",
+        "Persistence.Runtime",
+        "Parsing.Runtime",
+        "Arithmetic.Runtime",
+        "Common.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

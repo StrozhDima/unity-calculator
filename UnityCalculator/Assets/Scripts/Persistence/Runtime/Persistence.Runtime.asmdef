@@ -1,0 +1,16 @@
+{
+    "name": "Persistence.Runtime",
+    "rootNamespace": "UnityCalculator.Persistence",
+    "references": [
+        "Common.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

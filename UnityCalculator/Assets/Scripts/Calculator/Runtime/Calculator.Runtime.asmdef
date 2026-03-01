@@ -1,0 +1,22 @@
+{
+    "name": "Calculator.Runtime",
+    "rootNamespace": "UnityCalculator.Calculator",
+    "references": [
+        "Common.Runtime",
+        "Persistence.Runtime",
+        "Parsing.Runtime",
+        "Arithmetic.Runtime",
+        "Zenject",
+        "UniTask",
+        "UniRx"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

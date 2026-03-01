@@ -1,0 +1,16 @@
+{
+    "name": "Arithmetic.Runtime",
+    "rootNamespace": "UnityCalculator.Arithmetic",
+    "references": [
+        "Common.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

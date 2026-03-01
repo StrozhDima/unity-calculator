@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169945176}
   - component: {fileID: 169945178}
-  - component: {fileID: 169945177}
+  - component: {fileID: 169945179}
   m_Layer: 0
   m_Name: SceneContext
   m_TagString: Untagged
@@ -152,27 +152,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &169945177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169945175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76fa23b9123c64c209117bb6268ec7fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Elements.UI::Elements.UI.GameInstaller
-  _levelView: {fileID: 0}
-  _hudView: {fileID: 0}
-  _soLevelContainer: {fileID: 11400000, guid: 2f1e8abd1af024a8486b4c947fe5194a, type: 2}
-  _blockPrefabConfig: {fileID: 11400000, guid: 8069b55d2d0ce4eef81dcc800bc4dbfc, type: 2}
-  _blockPoolRoot: {fileID: 0}
-  _swipeInputProvider: {fileID: 0}
-  _camera: {fileID: 519420031}
-  _gridLayoutConfig: {fileID: 11400000, guid: 51038feae337e48de9f7f558dc99f75f, type: 2}
-  _blockPoolWarmupSize: 8
 --- !u!114 &169945178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Zenject::Zenject.SceneContext
   _scriptableObjectInstallers: []
   _monoInstallers:
-  - {fileID: 169945177}
+  - {fileID: 169945179}
   _installerPrefabs: []
   _autoRun: 1
   OnPreInstall:
@@ -205,6 +184,18 @@ MonoBehaviour:
   _parentNewObjectsUnderSceneContext: 0
   _contractNames: []
   _parentContractNames: []
+--- !u!114 &169945179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169945175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e41653d625ae042a87c5702431b3dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Core.Runtime::UnityCalculator.Core.SceneInstaller
 --- !u!1 &344275962
 GameObject:
   m_ObjectHideFlags: 0

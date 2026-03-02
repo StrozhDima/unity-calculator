@@ -8,7 +8,9 @@
         "Arithmetic.Runtime",
         "Zenject",
         "UniTask",
-        "UniRx"
+        "UniRx",
+        "Unity.TextMeshPro",
+        "MessageBox.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

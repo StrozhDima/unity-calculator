@@ -3,7 +3,9 @@
     "rootNamespace": "UnityCalculator.MessageBox",
     "references": [
         "UnityEngine.TestRunner",
-        "MessageBox.Runtime"
+        "MessageBox.Runtime",
+        "UniTask",
+        "UniRx"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
